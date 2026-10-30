@@ -1,0 +1,80 @@
+body {
+    background-color: #b4cc9c;
+}
+
+#header {
+    background-color: cyan;
+    width: 100%;
+    height: 100px;
+    top: 0;
+}
+
+#site-logo-div {
+    position: absolute;
+    display: flex;
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-page-button {
+    position: absolute;
+    right: 300px;
+    display: flex;
+    background-color: cyan;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#products-page-button {
+    position: absolute;
+    right: 150px;
+    display: flex;
+    background-color: cyan;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-page-button {
+    position: absolute;
+    right: 0;
+    display: flex;
+    background-color: cyan;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#company-info-container {
+    background-color: green;
+    position: absolute;
+    display: block;
+    left: 25%;
+    right: 25%;
+    padding: 25px;
+    text-align: center;
+}
+
+#company-name-text {
+    position: relative;
+}
+
+#company-img {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding: 25px;
+}
+
+#company-info-text {
+    position: relative;
+    padding: 25px;
+}
