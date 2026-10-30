@@ -13,7 +13,7 @@ body {
 #site-logo-div {
     position: absolute;
     display: flex;
-    background-color: blue;
+    background-color: white;
     width: 150px;
     height: 100px;
     align-items: center;
@@ -57,7 +57,7 @@ body {
 }
 
 #company-info-container {
-    background-color: green;
+    background-color: lightgreen;
     position: absolute;
     display: block;
     left: 25%;
@@ -164,4 +164,23 @@ body {
     position: relative;
     top: 20%;
     color: white;
+}
+
+#contact-info-container {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+}
+
+#contact-info-text {
+    color: darkslategray;
+}
+
+#map-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 50px;
+    margin-top: 150px;
+    width: 600px;
 }
