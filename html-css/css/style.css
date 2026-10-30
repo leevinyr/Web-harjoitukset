@@ -1,5 +1,6 @@
 body {
     background-color: #b4cc9c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 #header {
@@ -28,6 +29,7 @@ body {
     height: 100px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 #products-page-button {
@@ -39,6 +41,7 @@ body {
     height: 100px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 #contact-page-button {
@@ -50,6 +53,7 @@ body {
     height: 100px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 #company-info-container {
@@ -77,4 +81,87 @@ body {
 #company-info-text {
     position: relative;
     padding: 25px;
+}
+
+#campus-img-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#campus-img {
+    position: relative;
+    height: 400px;
+}
+
+#campus-txt-container {
+    position: absolute;
+    display: flex;
+    top: 550px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#campus-img-text {
+    position: relative;
+}
+
+#products-container {
+    position: absolute;
+    margin-inline: 22%;
+    top: 800px;
+    display: flex;
+    height: 200px;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#product-1-container {
+    position: relative;
+    width: 250px;
+    height: 500px;
+    background-color: gray;
+    text-align: center;
+}
+
+#product-2-container {
+    position: relative;
+    width: 250px;
+    height: 500px;
+    background-color: gray;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#product-3-container {
+    position: relative;
+    width: 250px;
+    height: 500px;
+    background-color: gray;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#product-imgs {
+    position: relative;
+    top: 10%;
+}
+
+#product-txts {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    color: white;
+}
+
+#product-paragraphs {
+    position: relative;
+    top: 20%;
+    color: white;
 }
